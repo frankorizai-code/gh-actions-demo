@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build
-        run: echo "Building app..."
+        run: echo "Building application"
       - name: Run app
         run: python app.py
 
